@@ -318,48 +318,48 @@ We use an array of type `Node` as the underlying data structure. Assume all hash
 
 **MyHashMap should look like after initialization:**
 
-![initial](https://github.com/user-attachments/assets/2e0f4512-955a-4fda-aea3-4922bdfab6e8)
+![initial](https://i.imgur.com/R4itvKb.jpeg)
 
 After calling the constructor, `size` should be 0. All of the indices of our array should be `null`.
 
 **After calling `put("A", 1)`:**
 
-![insert-A](https://github.com/user-attachments/assets/123a81ab-388d-48a3-9896-5dc274893e7c)
+![insert-A](https://i.imgur.com/LOYu2bB.jpeg)
 
 `null` should be returned. `size` is 1.
 
 **After calling `put("G", 7)`:**
 
-![insert-G](https://github.com/user-attachments/assets/6a3b320c-f6ef-4cd6-96d8-6d68467df030)
+![insert-G](https://i.imgur.com/jqeqLP3.jpeg)
 
 `null` should be returned. `size` is 2.
 
 **After calling `put("B", 2)`:**
 
-![insert-B](https://github.com/user-attachments/assets/16481de6-cca3-4743-8bfd-f5dd2c38a539)
+![insert-B](https://i.imgur.com/1Ckb5Zy.jpeg)
 
 `null` should be returned. `size` is 3.
 
 **After calling `remove("G")`:**
 
-![remove-G](https://github.com/user-attachments/assets/25b9713c-9bff-4362-bddd-54b495662b9b)
+![remove-G](https://i.imgur.com/czfKwYt.jpeg)
 
 `7` should be returned. `size` is 2.
 
 **After calling `put("F", 6)`:**
 
-![insert-F](https://github.com/user-attachments/assets/aee81ff2-4a4a-452d-a0c4-b933d138749d)
+![insert-F](https://i.imgur.com/szMdwQ7.jpeg)
 
 `null` should be returned. `size` is 3.
 
 **After calling `put("A", 2)`:**
 
-![replace-A](https://github.com/user-attachments/assets/f2af7694-78a2-48c7-9573-7655797d5ff7)
+![replace-A](https://i.imgur.com/GfeCsv3.jpeg)
 
 The value at node A is replaced. `1` should be returned. `size` is 3.
 
 **After manually calling `expandCapacity()`:**
 
-![expand](https://github.com/user-attachments/assets/a5ec0fef-320e-4f4f-8d74-2d5e0f447b1d)
+![expand](https://i.imgur.com/nEPYo8H.jpeg)
 
 All nodes, including nodes on the same linked list, are re-hashed.
